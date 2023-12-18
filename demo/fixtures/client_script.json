@@ -1,0 +1,13 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "demo",
+  "enabled": 1,
+  "modified": "2023-12-18 18:24:06.374157",
+  "module": "Demo",
+  "name": "demo",
+  "script": "frappe.ui.form.on('demo', {\n\tfirst_name(frm) {\n\t\tfrappe.msgprint(frm.doc.first_name)\n\t}\n})",
+  "view": "Form"
+ }
+]
