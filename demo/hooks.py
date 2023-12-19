@@ -230,3 +230,5 @@ app_license = "mit"
 fixtures = [
     {"dt": "Client Script", "filters": [["module", "in", ["Demo"]]]},
 ]
+x=12
+print(x)
